@@ -1,0 +1,14 @@
+#mentions-form-table tr th {
+    text-align: left !important;
+    width: 300px !important;
+}
+.mentions-legales-form-input {
+    width: 300px !important;
+}
+.mentions-legales-h2 {
+    font-size: 1.5em !important;
+}
+.mentions-legales-h4 {
+    font-size: 1.2em !important;
+    text-decoration: underline;
+}
