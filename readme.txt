@@ -32,6 +32,12 @@ Use directly the Wordpress dashboard :
  3. Click *Install Now* next to the *Mentions légales* plugin.
  4. Activate the plugin.
 
+== Frequently Asked Questions ==
+
+= Why this plugin is only in French ?
+
+This plugin is only in French because it generates legal mentions only for French  websites.
+
 == Changelog ==
 
 = 1.0.0 =
