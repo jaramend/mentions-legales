@@ -52,7 +52,7 @@ function mentions_legales_uninstall() {
 *
 */
 function is_all_full() {
-    if (!empty(get_option('mentions_legales_proprietaire')) && !empty(get_option('mentions_legales_status')) && !empty(get_option('mentions_legales_prop_adresse')) && !empty(get_option('mentions_legales_createur')) && !empty(get_option('mentions_legales_createur_url')) && !empty(get_option('mentions_legales_publication')) && !empty(get_option('mentions_legales_publication_contact')) && !empty(get_option('mentions_legales_webmaster')) && !empty(get_option('mentions_legales_webmaster_contact')) && !empty(get_option('mentions_legales_hebergeur')) && !empty(get_option('mentions_legales_hebergeur_adresse'))) {
+    if (trim(get_option('mentions_legales_proprietaire')) == false || trim(get_option('mentions_legales_status')) == false || trim(get_option('mentions_legales_prop_adresse')) == false || trim(get_option('mentions_legales_createur')) == false || trim(get_option('mentions_legales_createur_url')) == false || trim(get_option('mentions_legales_publication')) == false || trim(get_option('mentions_legales_publication_contact')) == false || trim(get_option('mentions_legales_webmaster')) == false || trim(get_option('mentions_legales_webmaster_contact')) == false || trim(get_option('mentions_legales_hebergeur')) == false || trim(get_option('mentions_legales_hebergeur_adresse')) == false) {
         return true;
     } else {
         return false;
