@@ -53,8 +53,8 @@ function mentions_legales_uninstall() {
 */
 function is_all_full() {
     if (trim(get_option('mentions_legales_proprietaire')) == false || trim(get_option('mentions_legales_status')) == false || trim(get_option('mentions_legales_prop_adresse')) == false || trim(get_option('mentions_legales_createur')) == false || trim(get_option('mentions_legales_createur_url')) == false || trim(get_option('mentions_legales_publication')) == false || trim(get_option('mentions_legales_publication_contact')) == false || trim(get_option('mentions_legales_webmaster')) == false || trim(get_option('mentions_legales_webmaster_contact')) == false || trim(get_option('mentions_legales_hebergeur')) == false || trim(get_option('mentions_legales_hebergeur_adresse')) == false) {
-        return true;
-    } else {
         return false;
+    } else {
+        return true;
     }
 }
