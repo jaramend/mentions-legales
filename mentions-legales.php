@@ -7,7 +7,7 @@
 * Plugin Name:    Mentions Légales
 * Plugin URI:     http://jba-development.fr
 * Description:    Un plugin pour générer automatiquement les mentions légales de votre site.
-* Version:        1.0.0
+* Version:        1.0.1
 * Author:         Jean-Baptiste Aramendy
 * Author URI:     http://jba-development.fr
 * License:        GPL2

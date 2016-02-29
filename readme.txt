@@ -1,10 +1,10 @@
-=== Mentions Légales ===
+﻿=== Mentions Légales ===
 
 Contributors: jaramend
 Tags: mentions legales, mentions, legales, site internet
 Requires at least: 3.0.1
 Tested up to: 4.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 
 Generate a shortcode with the legal mentions, which are mandatory for French pro websites.
@@ -39,6 +39,9 @@ Use directly the Wordpress dashboard :
 This plugin is only in French because it generates legal mentions only for French  websites.
 
 == Changelog ==
+
+= 1.0.1 =
+ * Solved an error with instructions block
 
 = 1.0.0 =
  * Initial release
